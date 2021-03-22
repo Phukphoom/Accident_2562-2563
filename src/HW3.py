@@ -9,7 +9,7 @@ plt.rcParams['font.family'] = 'kanit'
 csv_path = "../datasets/ubatiehtuthaangthnn.csv"
 
 with open(csv_path, encoding='utf-8') as csv_file:
-    csv_reader = csv.reader(csv_file)
+    csv_reader = csv.reader(csv_file) 
 
     dead_num_list = []
     patient_num_list = []
